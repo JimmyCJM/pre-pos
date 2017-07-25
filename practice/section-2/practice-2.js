@@ -13,7 +13,7 @@ function countSameElements(collection) {
       count=1;
     }
   }
-  result.push({key:a.split("-")[0],count:parseInt(a.split("-")[1]));
+  result.push({key:a.split("-")[0],count:parseInt(a.split("-")[1])});
   return result;
 }
 
@@ -38,7 +38,7 @@ function countSameElements(collection) {
       n++;
     }
   }
-  result[n]=new Object(a.split("-")[0],parseInt(a.split("-")[1])});
+  result[n]=new Object(a.split("-")[0],parseInt(a.split("-")[1]));
   return result;
 }
 */
